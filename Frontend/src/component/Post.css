@@ -1,0 +1,13 @@
+.post-body{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    max-width: 500px;
+    margin: 0 auto ;
+    background-color: blue;
+}
+.title-img{
+    max-width: 50%;
+    height: auto;
+    width: 300px;
+}
