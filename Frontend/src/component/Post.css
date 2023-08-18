@@ -1,13 +1,39 @@
 .post-body{
-    display: flex;
-    gap: 15px;
-    padding: 5px;
-    max-width: 500px;
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+    align-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    max-width: 700px;
     margin: 0 auto ;
-    background-color: blue;
 }
 .title-img{
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    width: 300px;
+    width: 700px;
+}
+
+.post-title{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    margin: 6px 0 6px 0;
+    font-size: 11px;
+    color:#6c83a5;
+    font-weight: bold;
+    
+}
+.author{
+    color:#354153;
+    text-decoration: none;
+}
+
+.post-summary{
+    margin: 10px 0;
+    line-height: 2rem;
 }
