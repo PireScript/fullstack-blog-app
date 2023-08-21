@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <header className="Navbar">
-      <a href="/" className="nav-logo">
+      <Link to="/" className="nav-logo">
         Mosteiros Post
-      </a>
+      </Link>
       <nav className="navbar">
         <ul className="nav-list">
           <li>
